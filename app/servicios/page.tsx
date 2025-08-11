@@ -1,6 +1,6 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
-import { Brain, Video, Zap, HeartPulse, Stethoscope, Users, CheckCircle, Star } from "lucide-react"
+import { Brain, Video, Zap, HeartPulse, Stethoscope, CheckCircle, Star } from "lucide-react"
 import Image from "next/image"
 import Link from "next/link"
 import type { Metadata } from "next"
@@ -8,7 +8,7 @@ import type { Metadata } from "next"
 export const metadata: Metadata = {
   title: "Servicios de Psiquiatría - Dra. Josefina Pernas | Terapia Individual y Online",
   description:
-    "Servicios especializados en psiquiatría: terapia individual, consultas online y presenciales, manejo del estrés, ACT y urgencias 24/7. Atención personalizada con más de 15 años de experiencia.",
+    "Servicios especializados en psiquiatría: terapia individual, consultas online y presenciales, manejo del estrés, ACT. Atención personalizada con más de 15 años de experiencia.",
   keywords: [
     "servicios psiquiatría",
     "terapia individual",
@@ -17,13 +17,12 @@ export const metadata: Metadata = {
     "manejo estrés",
     "ansiedad",
     "ACT terapia",
-    "urgencias psiquiátricas",
     "tratamiento personalizado",
   ],
   openGraph: {
     title: "Servicios de Psiquiatría - Dra. Josefina Pernas",
     description:
-      "Servicios especializados en salud mental: terapia individual, consultas online, manejo del estrés y más. Atención 24/7.",
+      "Servicios especializados en salud mental: terapia individual, consultas online, manejo del estrés y más.",
     url: "https://www.drajosefinapernas.com/servicios",
     siteName: "Dra. Josefina Pernas",
     images: [
@@ -93,14 +92,6 @@ const mainServices = [
     image: "https://images.unsplash.com/photo-1521790797524-b2497295b8a0?q=80&w=2070&auto=format&fit=crop",
     highlight: "Innovador",
   },
-  {
-    icon: <Users className="h-8 w-8" />,
-    title: "Urgencias Psiquiátricas",
-    description: "Atención inmediata para crisis y emergencias de salud mental las 24 horas.",
-    features: ["Disponibilidad 24/7", "Respuesta inmediata", "Estabilización rápida", "Seguimiento post-crisis"],
-    image: "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?q=80&w=2070&auto=format&fit=crop",
-    highlight: "Urgencias",
-  },
 ]
 
 const specializations = [
@@ -134,9 +125,6 @@ export default function ServicesPage() {
               </div>
               <div className="bg-secondary/10 px-4 py-2 rounded-full">
                 <span className="font-poppins-bold text-secondary">✓ Consultas Virtuales</span>
-              </div>
-              <div className="bg-primary/10 px-4 py-2 rounded-full">
-                <span className="font-poppins-bold text-primary">✓ Urgencias 24/7</span>
               </div>
             </div>
           </div>
