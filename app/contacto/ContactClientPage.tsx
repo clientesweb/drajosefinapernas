@@ -149,13 +149,9 @@ export default function ContactClientPage() {
                   <h3 className="font-poppins-bold text-primary">✉️ Email</h3>
                   <p className="font-poppins-semibold text-muted-foreground">jpgrenno@gmail.com</p>
                 </div>
-                <div className="text-center space-y-2">
+                <div className="text-center space-y-2 md:col-span-2">
                   <h3 className="font-poppins-bold text-primary">🏥 Modalidad</h3>
                   <p className="font-poppins-semibold text-muted-foreground">Presencial y Virtual</p>
-                </div>
-                <div className="text-center space-y-2">
-                  <h3 className="font-poppins-bold text-primary">⏰ Urgencias</h3>
-                  <p className="font-poppins-semibold text-muted-foreground">Disponible 24/7</p>
                 </div>
               </div>
             </div>
