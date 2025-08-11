@@ -1,7 +1,7 @@
 import Image from "next/image"
 import { ConsultationButton } from "@/components/ConsultationButton"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import { GraduationCap, Briefcase, Award, Heart, Users, BookOpen, Stethoscope, Brain } from "lucide-react"
+import { GraduationCap, Briefcase, Award, Users, BookOpen, Stethoscope, Brain } from "lucide-react"
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
@@ -80,12 +80,6 @@ export default function AboutPage() {
       description: "Servicio de Salud Mental - Atención integral a pacientes",
     },
     {
-      icon: <Heart className="h-6 w-6" />,
-      title: "Psiquiatra de Urgencias",
-      workplace: "Sistema Público y Privado",
-      description: "Atención de emergencias psiquiátricas las 24 horas",
-    },
-    {
       icon: <Users className="h-6 w-6" />,
       title: "Docente Universitaria",
       workplace: "UBA y Universidad Católica Argentina",
@@ -155,14 +149,10 @@ export default function AboutPage() {
                 </div>
 
                 {/* Quick Stats */}
-                <div className="grid grid-cols-2 gap-6">
+                <div className="grid grid-cols-1 gap-6">
                   <div className="bg-primary/10 p-6 rounded-lg text-center">
                     <div className="font-poppins-extrabold text-3xl text-primary mb-2">15+</div>
                     <div className="font-poppins-semibold text-sm text-muted-foreground">Años de Experiencia</div>
-                  </div>
-                  <div className="bg-secondary/10 p-6 rounded-lg text-center">
-                    <div className="font-poppins-extrabold text-3xl text-primary mb-2">24/7</div>
-                    <div className="font-poppins-semibold text-sm text-muted-foreground">Urgencias Disponibles</div>
                   </div>
                 </div>
               </div>
