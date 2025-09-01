@@ -46,6 +46,14 @@ export const metadata: Metadata = {
 
 const officialBlogPosts = [
   {
+    slug: "imagen-corporal",
+    title: "Imagen corporal: cómo nos vemos, pensamos y sentimos sobre nuestro cuerpo",
+    date: "1 de septiembre de 2025",
+    description:
+      "Descubre qué es la imagen corporal y cómo influye en tu bienestar emocional. Aprende sobre los componentes perceptivo, cognitivo, emocional y conductual.",
+    image: "/imagen-corporal.webp",
+  },
+  {
     slug: "fomo-miedo-quedarse-afuera",
     title: "FOMO: el miedo a quedarse afuera",
     date: new Date().toLocaleDateString("es-ES", {
