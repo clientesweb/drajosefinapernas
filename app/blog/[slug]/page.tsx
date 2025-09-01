@@ -1,6 +1,11 @@
 import { notFound, redirect } from "next/navigation"
 
-const officialPosts = ["fomo-miedo-quedarse-afuera", "una-mente-tranquila", "sueno-habitos-para-buen-descanso"]
+const officialPosts = [
+  "imagen-corporal",
+  "fomo-miedo-quedarse-afuera",
+  "una-mente-tranquila",
+  "sueno-habitos-para-buen-descanso",
+]
 
 export async function generateStaticParams() {
   return officialPosts.map((slug) => ({
@@ -25,6 +30,10 @@ export default function BlogPost({ params }: { params: { slug: string } }) {
 
   if (params.slug === "sueno-habitos-para-buen-descanso") {
     redirect("/blog/sueno-habitos-para-buen-descanso")
+  }
+
+  if (params.slug === "imagen-corporal") {
+    redirect("/blog/imagen-corporal")
   }
 
   return notFound()
