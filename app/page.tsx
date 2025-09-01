@@ -72,6 +72,15 @@ export const metadata: Metadata = {
 
 const latestBlogPosts = [
   {
+    slug: "imagen-corporal",
+    title: "Imagen corporal: cómo nos vemos, pensamos y sentimos sobre nuestro cuerpo",
+    date: "1 de septiembre de 2025",
+    description:
+      "Descubre qué es la imagen corporal y cómo influye en tu bienestar emocional. Aprende sobre los componentes perceptivo, cognitivo, emocional y conductual.",
+    image: "/imagen-corporal.webp",
+    readTime: "7 min",
+  },
+  {
     slug: "fomo-miedo-quedarse-afuera",
     title: "FOMO: el miedo a quedarse afuera",
     date: new Date().toLocaleDateString("es-ES", {
@@ -83,20 +92,6 @@ const latestBlogPosts = [
       "Descubre cómo el Fear of Missing Out afecta tu salud mental en la era de las redes sociales y aprende estrategias para manejarlo.",
     image: "/instagram/fomo-articulo.webp",
     readTime: "8 min",
-  },
-  {
-    slug: "una-mente-tranquila",
-    title: "Una Mente Tranquila",
-    date: new Date().toLocaleDateString("es-ES", {
-      year: "numeric",
-      month: "long",
-      day: "numeric",
-    }),
-    description:
-      "¿Te ha pasado que no puedes parar de pensar? Descubre cómo encontrar la calma mental y mejorar tu bienestar emocional.",
-    image:
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/file-1EE5UxJekiqdgAtQABX4ZJ-iZjn4RGaFos3HcyqMYjvSLw3jpYqpU.webp",
-    readTime: "5 min",
   },
 ]
 
