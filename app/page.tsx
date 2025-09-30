@@ -72,6 +72,19 @@ export const metadata: Metadata = {
 
 const latestBlogPosts = [
   {
+    slug: "estigma-salud-mental",
+    title: "El estigma en salud mental: una barrera que aún debemos derribar",
+    date: new Date().toLocaleDateString("es-ES", {
+      year: "numeric",
+      month: "long",
+      day: "numeric",
+    }),
+    description:
+      "Descubre qué es el estigma en salud mental, sus tipos y consecuencias. Aprende cómo podemos reducirlo y construir una sociedad más inclusiva.",
+    image: "/portada-estigma-salud-mental.jpg",
+    readTime: "6 min",
+  },
+  {
     slug: "imagen-corporal",
     title: "Imagen corporal: cómo nos vemos, pensamos y sentimos sobre nuestro cuerpo",
     date: "1 de septiembre de 2025",
@@ -79,19 +92,6 @@ const latestBlogPosts = [
       "Descubre qué es la imagen corporal y cómo influye en tu bienestar emocional. Aprende sobre los componentes perceptivo, cognitivo, emocional y conductual.",
     image: "/imagen-corporal.webp",
     readTime: "7 min",
-  },
-  {
-    slug: "fomo-miedo-quedarse-afuera",
-    title: "FOMO: el miedo a quedarse afuera",
-    date: new Date().toLocaleDateString("es-ES", {
-      year: "numeric",
-      month: "long",
-      day: "numeric",
-    }),
-    description:
-      "Descubre cómo el Fear of Missing Out afecta tu salud mental en la era de las redes sociales y aprende estrategias para manejarlo.",
-    image: "/instagram/fomo-articulo.webp",
-    readTime: "8 min",
   },
 ]
 

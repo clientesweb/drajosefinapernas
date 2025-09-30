@@ -17,6 +17,7 @@ export const metadata: Metadata = {
     "mente tranquila",
     "sueño salud mental",
     "consejos psiquiatra",
+    "estigma salud mental",
   ],
   openGraph: {
     title: "Blog de Salud Mental - Dra. Josefina Pernas",
@@ -45,6 +46,18 @@ export const metadata: Metadata = {
 }
 
 const officialBlogPosts = [
+  {
+    slug: "estigma-salud-mental",
+    title: "El estigma en salud mental: una barrera que aún debemos derribar",
+    date: new Date().toLocaleDateString("es-ES", {
+      year: "numeric",
+      month: "long",
+      day: "numeric",
+    }),
+    description:
+      "Descubre qué es el estigma en salud mental, sus tipos y consecuencias. Aprende cómo podemos reducirlo y construir una sociedad más inclusiva.",
+    image: "/portada-estigma-salud-mental.jpg",
+  },
   {
     slug: "imagen-corporal",
     title: "Imagen corporal: cómo nos vemos, pensamos y sentimos sobre nuestro cuerpo",
