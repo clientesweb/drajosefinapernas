@@ -47,6 +47,18 @@ export const metadata: Metadata = {
 
 const officialBlogPosts = [
   {
+    slug: "burnout-laboral",
+    title: "Burnout laboral: cuando la empresa te consume por dentro",
+    date: new Date().toLocaleDateString("es-ES", {
+      year: "numeric",
+      month: "long",
+      day: "numeric",
+    }),
+    description:
+      "Descubre qué es el síndrome de burnout, sus causas, señales de alerta y estrategias efectivas para prevenirlo y afrontarlo.",
+    image: "/portada-del-burnout-laboral.png",
+  },
+  {
     slug: "estigma-salud-mental",
     title: "El estigma en salud mental: una barrera que aún debemos derribar",
     date: new Date().toLocaleDateString("es-ES", {
