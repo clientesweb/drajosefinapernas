@@ -47,6 +47,18 @@ export const metadata: Metadata = {
 
 const officialBlogPosts = [
   {
+    slug: "impacto-autoexigencia-salud-mental",
+    title: "Impacto de la autoexigencia en la salud mental: aportes teóricos y evidencia empírica",
+    date: new Date().toLocaleDateString("es-ES", {
+      year: "numeric",
+      month: "long",
+      day: "numeric",
+    }),
+    description:
+      "Descubre cómo la autoexigencia extrema se relaciona con el perfeccionismo maladaptativo y su impacto en la salud mental. Aportes teóricos y evidencia empírica.",
+    image: "/portada-Impacto-de-la-autoexigencia-en-la-salud-mental.jpg",
+  },
+  {
     slug: "burnout-laboral",
     title: "Burnout laboral: cuando la empresa te consume por dentro",
     date: new Date().toLocaleDateString("es-ES", {
@@ -100,8 +112,7 @@ const officialBlogPosts = [
     }),
     description:
       "¿Te ha pasado que no puedes parar de pensar? Descubre cómo encontrar la calma mental y mejorar tu bienestar emocional.",
-    image:
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/file-1EE5UxJekiqdgAtQABX4ZJ-iZjn4RGaFos3HcyqMYjvSLw3jpYqpU.webp",
+    image: "/images/file-1ee5uxjekiqdgatqabx4zj.webp",
   },
   {
     slug: "sueno-habitos-para-buen-descanso",
@@ -113,8 +124,7 @@ const officialBlogPosts = [
     }),
     description:
       "La mayoría de los adultos necesitan dormir entre 7 y 8 horas al día. Descubre hábitos para mejorar la calidad de tu sueño y tu bienestar general.",
-    image:
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/file-R3iq48kZb7aTDqaUDmdEnx-qhtYu1UZLdrsMXb8sfSCXHejFomMGo.webp",
+    image: "/images/file-r3iq48kzb7atdqaudmdenx.webp",
   },
 ]
 

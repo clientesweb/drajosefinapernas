@@ -72,6 +72,19 @@ export const metadata: Metadata = {
 
 const latestBlogPosts = [
   {
+    slug: "impacto-autoexigencia-salud-mental",
+    title: "Impacto de la autoexigencia en la salud mental: aportes teóricos y evidencia empírica",
+    date: new Date().toLocaleDateString("es-ES", {
+      year: "numeric",
+      month: "long",
+      day: "numeric",
+    }),
+    description:
+      "Descubre cómo la autoexigencia extrema se relaciona con el perfeccionismo maladaptativo y su impacto en la salud mental.",
+    image: "/portada-Impacto-de-la-autoexigencia-en-la-salud-mental.jpg",
+    readTime: "7 min",
+  },
+  {
     slug: "burnout-laboral",
     title: "Burnout laboral: cuando la empresa te consume por dentro",
     date: new Date().toLocaleDateString("es-ES", {
